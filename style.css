@@ -1,0 +1,150 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    /* background-color: black; */
+    box-shadow: 0px 0px 5px gray;
+    display: flex;
+    justify-content: center;
+}
+nav>article{
+    height: 100%;
+    width: 90%;
+    /* background-color:aqua; */
+    display: flex;
+    align-items: center;
+}
+nav>article>.logo{
+    height: 70%;
+    width: 7%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}
+nav>article>.menu{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: first baseline;
+    
+}
+nav>article>.search{
+    height: 100%;
+    width: 45%;
+    /* background-color: chartreuse; */
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+
+nav>article>.search>div>i{
+    height: 40px;
+    width: 80%;
+    padding-right: 18px;
+    padding-top: 11px;
+}
+nav>article>.search>input:focus{
+    outline: none;
+    background-color: white;
+}
+
+nav>article>.logo>img{
+    height: 60%;
+    width: 60%;
+}
+nav>article>.menu>ol{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+}
+nav>article>.menu>ol>li>a{
+    height: 100%;
+    width: 100%;
+    text-decoration:none ;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+nav>article>.search>input{
+    height: 50%;
+    width: 100%;
+    border: none;
+}
+nav>article>.si{
+    height: 30%;
+    width: 2%;
+    align-items: center;
+    /* background-color: brown; */
+    padding-right: 20px;
+}
+nav>article>.icons{
+    height: 90%;
+    width: 20%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+section>.a>img{
+    height: 50%;
+    width: 100%;
+}
+section>h1{
+    padding-top: 100px;
+    color: rgb(59, 54, 54);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    padding-bottom: 70px;
+}
+.s>.p{
+    display: flex;
+}
+.s>.p>img{
+    height: 100%;
+    width:70%;
+    overflow: hidden;
+}
+.g>.r{
+    display: flex;
+}
+.g>.r>img{
+    height: 100%;
+    width:70%;
+    overflow: hidden;
+}
+.f>.l{
+    display: flex;
+}
+.f>.l>img{
+    height: 100%;
+    width:70%;
+    overflow: hidden;
+}
+/* .x>.y{
+    display: flex;
+}
+.x>.y{
+    height: 100%;
+    width:70%;
+    overflow: hidden;
+} */
+
+
+
+
+        
+ 
